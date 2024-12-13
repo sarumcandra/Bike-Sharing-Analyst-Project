@@ -69,8 +69,8 @@ def create_time_users_df(df):
   return time_users_df
 
 # data
-day_df = pd.read_csv('/content/drive/MyDrive/Bike-sharing-dataset/day.csv')
-hour_df = pd.read_csv('/content/drive/MyDrive/Bike-sharing-dataset/hour.csv')
+day_df = pd.read_csv('day.csv')
+hour_df = pd.read_csv('hour.csv')
 
 #mengubah data type datetime
 datetime_columns = ["dteday"]
