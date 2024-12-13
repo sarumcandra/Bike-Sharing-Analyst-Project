@@ -1,8 +1,9 @@
+pip install --upgrade pip
+import streamlit as st
 from datetime import time
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-import streamlit as st
 sns.set(style='dark')
 
 # Data untuk tren bike sharing
