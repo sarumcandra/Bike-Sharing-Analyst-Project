@@ -1,4 +1,3 @@
-pip install --upgrade pip
 import streamlit as st
 from datetime import time
 import pandas as pd
