@@ -68,8 +68,8 @@ def create_time_users_df(df):
   return time_users_df
 
 # data
-day_df = pd.read_csv('github.com/sarumcandra/bike-sharing-analyst-project/main/dashboard/day.csv')
-hour_df = pd.read_csv('github.com/sarumcandra/bike-sharing-analyst-project/main/dashboard/hour.csv')
+day_df = pd.read_csv('https://raw.githubusercontent.com/sarumcandra/bike-sharing-analyst-project/main/dashboard/day.csv')
+hour_df = pd.read_csv('https://raw.githubusercontent.com/sarumcandra/bike-sharing-analyst-project/main/dashboard/hour.csv')
 
 #mengubah data type datetime
 datetime_columns = ["dteday"]
