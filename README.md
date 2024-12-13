@@ -16,10 +16,3 @@ pip install -r requirements.txt
 ```
 streamlit run dashboard.py
 ```
-
-Running on Google Colab
-```
-!npm install localtunnel
-!streamlit run dashboard.py & npx localtunnel --port 8501
-```
-
